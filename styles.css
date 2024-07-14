@@ -22,8 +22,6 @@ body {
   height: 443px;
   left: 88px;
   top: 278px;
-
-  background: url(american-shrimp-fried-rice-served-with-chili-fish-sauce-thai-food.jpg);
 }
 .tiny-paragraph {
   /* Ajeyo food canteen */
@@ -85,15 +83,16 @@ td {
 }
 
 th {
-  background-color: #f2f2f2;
+  background-color: white;
   font-weight: 600;
 }
 
 caption {
   caption-side: top;
   font-size: 1.5em;
-  margin-bottom: 10px;
-  font-weight: 700;
+  margin-bottom: none;
+  font-weight: 400;
+  border: 1px solid #000;
 }
 
 td {
@@ -101,7 +100,85 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #f9f9f9;
+  background-color: white;
+}
+.hero-image2 {
+  /* Swallow*/
+  width: 607px;
+  height: 443px;
+  left: 88px;
+  top: 278px;
+}
+.opening-days {
+  /* We are open 7days a week */
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  /* identical to box height */
+  color: #000000;
+}
+.mon-sun1 {
+  /* Sunday - Thursday */
+  width: 1090px;
+  height: 19px;
+  left: 88px;
+  top: 901px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.time-week1 {
+  /* 11 am - 9pm */
+  width: 1090px;
+  height: 19px;
+  left: 114px;
+  top: 936px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.mon-sun2 {
+  /* Friday - Saturday */
+  width: 1090px;
+  height: 19px;
+  left: 88px;
+  top: 975px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.time-week2 {
+  /* 11 am - 11pm */
+  width: 1090px;
+  height: 19px;
+  left: 114px;
+  top: 1010px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+footer {
+  /* Copyright © Ajeyo Food Canteen 2023 */
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #000000;
 }
 .container {
   margin: 50px auto;

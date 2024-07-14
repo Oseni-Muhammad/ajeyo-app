@@ -1,36 +1,87 @@
 /* Cascading Style Sheets */
-
-/* using style tag */
-/* using inline css */
 /* using external style */
 body {
   font-family: "Space Grotesk", sans-serif;
 }
+
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #000;
+            background-color: #f9f9f9;
+        }
+        table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 50px auto 50px 0;
+    font-family: 'Space Grotesk', sans-serif;
+    border: 1px solid #000;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: 600;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+td {
+    font-size: 1em;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+        fieldset {
+            border: 1px solid #000;
+            padding: 20px;
+        }
+
+        legend {
+            padding: 0 10px;
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px 20px;
+            margin: 10px 5px 0 0;
+            background-color: #ddd;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #ccc;
+        }
 section {
   margin-top: 30px;
-}
-
-.title {
-  font-size: 2em;
-  text-align: center;
-}
-
-.description {
-  font-size: 1.2em;
-  line-height: 1.5;
-}
-
-.image-container {
-  text-align: center;
-}
-
-.image {
-  width: 400px;
-  height: auto;
-}
-
-@media screen and (max-width: 600px) {
-  .image {
-    width: 100%;
-  }
 }

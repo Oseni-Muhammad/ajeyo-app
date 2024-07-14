@@ -3,85 +3,148 @@
 body {
   font-family: "Space Grotesk", sans-serif;
 }
+.menu-list {
+  /* About AFC Our Menu Operation Hours Contact Us */
+  width: 149px;
+  height: 136px;
+  left: 114px;
+  top: 101px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+  color: #000000;
+}
+.hero-image1 {
+  /* american-shrimp-fried-rice-served-with-chili-fish-sauce-thai-food 1 */
+  width: 607px;
+  height: 443px;
+  left: 88px;
+  top: 278px;
 
-        .container {
-            width: 50%;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #000;
-            background-color: #f9f9f9;
-        }
-        table {
-    width: 50%;
-    border-collapse: collapse;
-    margin: 50px auto 50px 0;
-    font-family: 'Space Grotesk', sans-serif;
-    border: 1px solid #000;
+  background: url(american-shrimp-fried-rice-served-with-chili-fish-sauce-thai-food.jpg);
+}
+.tiny-paragraph {
+  /* Ajeyo food canteen */
+  width: 147px;
+  height: 19px;
+  left: 88px;
+  top: 737px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
 }
 
-th, td {
-    border: 1px solid #000;
-    padding: 12px 15px;
-    text-align: left;
+.about-style {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+a{
+  /* Back to Top */
+width: 90px;
+height: 19px;
+left: 88px;
+top: 1243px;
+font-family: 'Space Grotesk';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-decoration-line: underline;
+color: #000000;
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #000;
+  background-color: #f9f9f9;
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin: 50px auto 50px 0;
+  font-family: "Space Grotesk", sans-serif;
+  border: 1px solid #000;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 12px 15px;
+  text-align: left;
 }
 
 th {
-    background-color: #f2f2f2;
-    font-weight: 600;
+  background-color: #f2f2f2;
+  font-weight: 600;
 }
 
 caption {
-    caption-side: top;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    font-weight: 700;
+  caption-side: top;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: 700;
 }
 
 td {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 tr:nth-child(even) {
-    background-color: #f9f9f9;
+  background-color: #f9f9f9;
+}
+.container {
+  margin: 50px auto;
+}
+fieldset {
+  border: 1px solid #000;
+  padding: 20px;
+  
 }
 
+legend {
+  padding: 0 10px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: left; /* Ensures text within fieldset is aligned to the left */
+}
 
-        fieldset {
-            border: 1px solid #000;
-            padding: 20px;
-        }
+label {
+  display: block;
+  margin: 10px 0 5px;
+}
 
-        legend {
-            padding: 0 10px;
-            font-weight: bold;
-        }
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
 
-        label {
-            display: block;
-            margin: 10px 0 5px;
-        }
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px 20px;
+  margin: 10px 5px 0 0;
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
 
-        input[type="text"],
-        input[type="email"],
-        textarea {
-            width: 100%;
-            padding: 8px;
-            border: 1px solid #ccc;
-        }
-
-        input[type="submit"],
-        input[type="reset"] {
-            padding: 10px 20px;
-            margin: 10px 5px 0 0;
-            background-color: #ddd;
-            border: 1px solid #ccc;
-            cursor: pointer;
-        }
-
-        input[type="submit"]:hover,
-        input[type="reset"]:hover {
-            background-color: #ccc;
-        }
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #ccc;
+}
 section {
   margin-top: 30px;
 }

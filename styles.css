@@ -47,19 +47,19 @@ body {
   line-height: 19px;
   color: #000000;
 }
-a{
+a {
   /* Back to Top */
-width: 90px;
-height: 19px;
-left: 88px;
-top: 1243px;
-font-family: 'Space Grotesk';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-text-decoration-line: underline;
-color: #000000;
+  width: 90px;
+  height: 19px;
+  left: 88px;
+  top: 1243px;
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #000000;
 }
 
 .container {
@@ -109,7 +109,6 @@ tr:nth-child(even) {
 fieldset {
   border: 1px solid #000;
   padding: 20px;
-  
 }
 
 legend {

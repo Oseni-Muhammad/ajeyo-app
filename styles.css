@@ -1,6 +1,6 @@
 /* Cascading Style Sheets */
 /* using external style */
-body {
+* {
   box-sizing: border-box;
   font-family: "Space Grotesk", sans-serif;
 }
